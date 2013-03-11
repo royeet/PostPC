@@ -1,0 +1,11 @@
+
+<resources>
+
+    <string name="app_name">Ex1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="bill_amount">Bill Amount</string>
+    <string name="round_dollar">Round to nearest dollar</string>
+    <string name="calculate">Calculate</string>
+
+</resources>

@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TipCalculatorActivity" >
+
+<TextView
+        android:id="@+id/bill_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/edtBillAmount"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="bottom"
+        android:text="@string/bill_amount"
+        android:textSize="20sp"
+        android:width="120dp" />
+
+    <EditText
+        android:id="@+id/edtBillAmount"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:background="@drawable/frame"
+        android:inputType="numberDecimal"
+        android:singleLine="false" />
+
+    <TextView
+        android:id="@+id/txtTipResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bill_amount"
+        android:layout_below="@+id/btnCalculate"
+        android:layout_marginTop="98dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/light_grey" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/bill_amount"
+        android:layout_below="@+id/chkRound"
+        android:layout_marginTop="38dp"
+        android:background="@color/light_grey"
+        android:text="@string/calculate"
+        android:width="90dp" />
+
+    <CheckBox
+        android:id="@+id/chkRound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bill_amount"
+        android:layout_below="@+id/bill_amount"
+        android:layout_marginTop="54dp"
+        android:text="@string/round_dollar"
+        android:textColor="@color/light_grey"
+        android:textSize="15sp" />
+
+</RelativeLayout>
