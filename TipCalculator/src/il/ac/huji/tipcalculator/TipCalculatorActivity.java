@@ -1,10 +1,7 @@
 package il.ac.huji.tipcalculator;
-
 import android.os.Bundle;
 import android.app.Activity;
-
 import java.text.DecimalFormat;
-
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
